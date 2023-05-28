@@ -1,0 +1,31 @@
+/* BASE */
+@import './base/global.css';
+
+/* COMPONENTS */
+@import './components/header.css';
+@import './components/sidebar.css';
+@import './components/button.css';
+@import './components/avatar.css';
+@import './components/content.css';
+@import './components/footer.css';
+
+.wrapper {
+  max-width: 112rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
