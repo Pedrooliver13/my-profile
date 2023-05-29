@@ -17,7 +17,7 @@ $ cd my-profile
 
 ## 🔖 Visit:
 
-Visit page https://pedrooliver13.github.io/my-profile/
+- Visit page https://pedrooliver13.github.io/my-profile/
 
 ## :rocket: Technologies
 
